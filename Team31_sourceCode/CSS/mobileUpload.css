@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url("../Images/food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 56px;
+	opacity: 1;
+}
+
+#main{
+	/*text-align: center;*/
+	margin: 20px;
+	border-radius: 25px;
+	border: 3px solid orange;
+	padding: 40px 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#create {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+} 
+
+#nameLabel{
+	font-size: 36px;
+}
+		
+#name input{
+	border: 1px solid black;
+	border-radius: 25px;
+	font-size: 72px;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 50%;
+	height: 90px;
+	padding: 0 20px;
+}
+
+#uploadLabel{
+	font-size: 36px;
+	display: inline-block;
+}
+
+#desLabel{
+	font-size: 36px;
+}
+
+#myPicture{
+	font-size: 36px;
+	display: inline-block;
+}
+
+#myPicture input{
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	/*display: inline-block;*/
+}
+
+.describe {
+	resize: none;
+	width: 100%; height:150px;
+	border: 1px solid black;
+	padding:10px 0 8px 0px;
+	font-size: 20px;
+	font-weight: 100;
+	border-radius: 25px;
+
+}
+
+#description textarea{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.describe::placeholder{
+	font-size: 46px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*ingredients text box*/
+#info{
+	font-size:36px;
+}
+
+.ingredContain{
+	display: inline;
+}
+
+
+.ingredientArea{resize: none;
+	  width: 88%;	
+	  border: 1px solid black;
+	  border-radius: 25px;
+	  padding:10px 0 10px 0;
+	  font-size: 52px;
+	  font-weight: 100;
+}
+
+#ingredientList{
+	display: inline;
+}
+
+#ingredientList textarea{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #fff2d7;
+}
+
+.ingredientArea::placeholder{
+	height: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#addIng{
+	display: inline-block;
+}
+
+#stepLabel{
+	font-size: 36px;
+}
+
+.formContain{
+	display: inline;
+}
+
+.direction{resize: none;
+	  width: 88%;	
+	  border: 1px solid black;
+	  border-radius: 25px;
+	  padding:10px 0 10px 0;
+	  font-size: 52px;
+	  font-weight: 100;
+}
+
+#steps{
+	display: inline;
+}
+
+#steps textarea{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #fff2d7;
+}
+
+.direction::placeholder{
+	height: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Add '+' button*/
+#add {
+	display: inline-block;
+}
+
+#submit{
+	text-align: center; 
+}
+
+#submit input[type=submit] {
+	margin-top: 30px;
+	padding: 20px;
+	font-size: 52px;
+	border: none;
+	border-radius: 25px;
+	background-color: orange;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.addOn {
+	float: right;
+	clear:; both;
+}
